@@ -64,7 +64,7 @@ Commands.purge = {
   usage: '<number>',
   aliases: ['prune'],
   noDM: true,
-  timeout: 30,
+  timeout: 5,
   level: 0,
   fn: function (msg, suffix, bot) {
     var guild = msg.guild
